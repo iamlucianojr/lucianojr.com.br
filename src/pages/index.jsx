@@ -159,7 +159,7 @@ const Index = () => (
       <Content speed={0.4} offset={0}>
         <Hero>
           <BigTitle>
-            Hello, <br /> I'm John Doe.
+            Hello, <br /> I'm Luciano Jr.
           </BigTitle>
           <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies.</Subtitle>
         </Hero>
@@ -175,32 +175,21 @@ const Index = () => (
           <Title>Projects</Title>
           <ProjectsWrapper>
             <ProjectCard
-              title="Freiheit"
-              link="https://www.behance.net/gallery/58937147/Freiheit"
+              title="Facestore API"
+              link="https://developers.facestore.pt"
               bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
             >
-              This project is my entry to Adobe's #ChallengeYourPerspective contest.
+              Principal architecture and developer of company API (developers.facestore.pt) using Laravel framework,
+              Docker and DDD approach; Take care about infrastructure administrator and resources related with the
+              project. Planning the continuous integration and delivery using Gitflow and tools, building acceptance and
+              stress tests used in the build pipeline; Write the API specification and create the documentation website.
             </ProjectCard>
             <ProjectCard
-              title="Harry Potter"
-              link="https://www.behance.net/gallery/52915793/Harry-Potter"
+              title="Beer Open AI"
+              link="https://github.com/luciano-jr/beerAI"
               bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
             >
               I entered the DOCMA 2017 award with this Harry Potter inspired image.
-            </ProjectCard>
-            <ProjectCard
-              title="Tomb Raider"
-              link="https://www.behance.net/gallery/43907099/Tomb-Raider"
-              bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
-            >
-              Recreation of a Tomb Raider Wallpaper (Fan Art)
-            </ProjectCard>
-            <ProjectCard
-              title="Eagle"
-              link="https://www.behance.net/gallery/38068151/Eagle"
-              bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
-            >
-              A fantasy image manipulation relocating the habitat of wild animals.
             </ProjectCard>
           </ProjectsWrapper>
         </Inner>
@@ -252,17 +241,15 @@ const Index = () => (
           <Title>About</Title>
           <AboutHero>
             <Avatar src={avatar} alt="John Doe" />
-            <AboutSub>
-              The English language can not fully capture the depth and complexity of my thoughts. So I'm incorporating
-              Emoji into my speech to better express myself. Winky face.
-            </AboutSub>
+            <AboutSub>If you want to go fast, go alone. If you want to go far, go with others.</AboutSub>
           </AboutHero>
           <AboutDesc>
-            You know the way you feel when you see a picture of two otters holding hands? That's how you're gonna feel
-            every day. My mother cried the day I was born because she knew she’d never be prettier than me. You should
-            make me your campaign manager. I was born for politics. I have great hair and I love lying. Captain? The
-            kids want to know where Paulie the Pigeon is. I told them he got sucked up into an airplane engine, is that
-            all right?
+            Senior PHP Engineer Consultant • 5 years experience with e-commerce platform companies; • Experience with
+            Software-as-a-Service (SaaS) companies; • RESTful APIs and micro-services enthusiast; • PHP (most Laravel
+            and Symfony); • Javascript (ES6 and Reactjs); • Open Source enthusiast. Tools: • Tech stuffs: PHPStorm |
+            WebStorm | EXPO | Slack • CRM: Pipedrive | Zoho • Project Management: XMind| Jira | Bitbucket | Gitlab |
+            Trello • OS: Linux (Ubuntu) | Android phone Personal Skills: • Proactive, early adopter, technology
+            passionate;
           </AboutDesc>
         </Inner>
       </Content>
@@ -286,14 +273,15 @@ const Index = () => (
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-            Say <a href="mailto:plizNoSp4m@domain.tld">Hi</a> or find me on other platforms:{' '}
-            <a href="https://dribbble.com/LekoArts">Dribbble</a> &{' '}
-            <a href="https://www.instagram.com/lekoarts.de/">Instagram</a>
+            Say <a href="mailto:luciano@lucianojr.com.br">Hi</a> or find me on other platforms:{' '}
+            <a href="https://github.com/luciano-jr">Github</a> &{' '}
+            <a href="https://www.twitter.com/atomodebohr/">Twitter</a>
+            <a href="https://www.instagram.com/atomodebohr/">Instagram</a>
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2018 by Gatsby Starter Portfolio Cara.{' '}
-          <a href="https://github.com/LeKoArts/gatsby-starter-portfolio-cara">Github Repository</a>.
+          &copy; 2018 by Gatsby Starter Portfolio Luciano.{' '}
+          <a href="https://github.com/luciano-jr/lucianojr.com.br">Github Repository</a>.
         </Footer>
       </Content>
       <Divider speed={0.1} offset={4}>
