@@ -240,7 +240,7 @@ const Index = () => (
         <Inner>
           <Title>About</Title>
           <AboutHero>
-            <Avatar src={avatar} alt="John Doe" />
+            <Avatar src={avatar} alt="Luciano Jr" />
             <AboutSub>If you want to go fast, go alone. If you want to go far, go with others.</AboutSub>
           </AboutHero>
           <AboutDesc>
