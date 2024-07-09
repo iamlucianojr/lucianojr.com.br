@@ -161,7 +161,7 @@ const Index = () => (
           <BigTitle>
             Hello, <br /> I'm Luciano Jr.
           </BigTitle>
-          <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies.</Subtitle>
+          <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies!</Subtitle>
         </Hero>
       </Content>
       <DividerMiddle
